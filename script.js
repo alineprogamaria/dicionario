@@ -41,9 +41,9 @@ function carregaDicionario() {
 var content = document.getElementById('content');
   for(var bio in biografias){
     content.innerHTML+=
-      '<div class="card">' + '<img src="' + biografias[bio].image  +  '"/>' + '<details>' + 
-        '<summary>' + biografias[bio].name + '</summary>' + '<p>' +  
-      biografias[bio].description + '</p>' + '<blockquote><q>' + biografias[bio].quote + '</q></blockquote>' + 
+      '<div class="card">' + '<img src="' + biografias[bio].imagem  +  '"/>' + '<details>' + 
+        '<summary>' + biografias[bio].nome + '</summary>' + '<p>' +  
+      biografias[bio].descricao + '</p>' + '<blockquote><q>' + biografias[bio].citacao + '</q></blockquote>' + 
       '</details></div>';
   }
 }
