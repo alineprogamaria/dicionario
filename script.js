@@ -1,4 +1,5 @@
-var biografias = {
+function carregaDicionario() { 
+ var biografias = {
   "bio01": {
     "nome": "Marielle Franco",
     "imagem": "https://i.postimg.cc/8fS8KSGX/marielle-franco.png",
@@ -36,8 +37,7 @@ var biografias = {
     "citacao": "⁠Você nunca deve ter medo do que está fazendo quando está certo."
   }
 };
-
-function carregaDicionario() { 
+  
 var content = document.getElementById('content');
   for(var bio in biografias){
     content.innerHTML+=
